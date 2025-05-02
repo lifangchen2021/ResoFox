@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="docs/ResoFox_cover.png" alt="ResoFox Mascot" width="400"/>
+</p>
+
+<h2 align="center">ResoFox</h2>
+<p align="center"><em>A GUI-based tool for calculating resolution and flux of neutron powder diffractometers.</em></p>
+
+---
+
+
+
+
 # ResoFox  
 A GUI-based tool for calculating resolution and flux of neutron powder diffractometers.
 
@@ -83,7 +95,7 @@ Sample McStas input files and parameter documentation are included in the `examp
 ResoFox supports real-time generation and export of both plots and data tables:
 
 - Users can save generated plots—such as diffraction patterns (2θ vs intensity) and resolution curves—as `.png` images via the **Save Image** button in the GUI.
-- The program automatically prints detailed diffraction peak data—including 2θ, d-spacing, resolution, and relative intensity—to the console and optionally saves it as `.txt` or `.csv` files.
+- The program automatically prints detailed diffraction peak data—including 2θ, d-spacing, resolution, and relative intensity—to the console and optionally saves it as  `.csv` files.
 - All output files are UTF-8 encoded and compatible with Excel or other scientific plotting software for downstream analysis.
 
 
