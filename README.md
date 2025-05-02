@@ -76,11 +76,11 @@ ResoFox 模擬結果已與 G. Caglioti 等人於 1958 年論文所示之曲線�
 ## 案例與附檔：銀粉末比對分析
 
 完整模擬與比對資料皆收錄於下列資料夾中：
-'''
+```
 case_study_ag_powder/
 ├── arxiv_paper_2504.20341.pdf
 └── mcstas_input.instr
-'''
+```
 使用者可下載並重現分析流程。
 
 ---
