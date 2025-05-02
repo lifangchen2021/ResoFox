@@ -70,7 +70,7 @@ ResoFox 模擬結果已與 G. Caglioti 等人於 1958 年論文所示之曲線�
 
 ![輸入介面對照](docs/resofox_mcstas_input_demo.png)
 
-左側為 ResoFox，右側為 McStas GUI 輸入設定。完整參數亦已納入 case_study 資料夾中供下載使用。
+左側為 ResoFox，右側為 McStas GUI 輸入設定。McStas輸入檔與說明文件亦已納入 examples 資料夾中供下載使用。
 
 ---
 
