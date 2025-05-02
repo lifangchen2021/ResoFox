@@ -99,10 +99,10 @@ case_study_ag_powder/
 本工具採用 MIT 開源授權，可自由使用與修改，唯需註明來源。
 
 引用範例：
-'''
+```
 Li-Fang Chen, Preliminary Design and Performance Simulation of a Thermal Neutron Diffractometer Using McStas, arXiv:2504.20341
 Li-Fang Chen, ResoFox: A GUI Tool for Neutron Diffractometer Resolution and Intensity Estimation
-'''
+```
 ---
 
 📩 如需技術支援或合作，請來信：`lifangchen0507@gmail.com`
