@@ -1,6 +1,7 @@
 <p align="center">
   <img src="docs/ResoFox_cover.png" alt="ResoFox Mascot" width="400"/>
 </p>
+<p align="center"><em>Illustration: ResoFox mascot explaining neutron diffraction and Bragg's Law.</em></p>
 
 <h2 align="center">ResoFox</h2>
 <p align="center"><em>A GUI-based tool for calculating resolution and flux of neutron powder diffractometers.</em></p>
