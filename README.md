@@ -105,7 +105,7 @@ examples/
 ---
 
 ### 安裝方式
-1. 點擊上方檔案下載 `.exe`
+1. 點擊下方檔案下載 `.exe`
 2. 執行 `ResoFox_v1.0.exe`
 3. 若跳出安全警告，請選「仍要執行」或加入白名單（Windows SmartScreen）
 
@@ -127,7 +127,8 @@ For details on parameters and input examples, please refer to the main README.
 
 ## 📥 下載執行檔 Download Executable
 
-[🔗 點此下載 ResoFox_v1.0.exe (Windows 64-bit)](https://[github.com/yourname/ResoFox/releases/download/v1.0/ResoFox_v1.0.exe](https://github.com/lifangchen2021/ResoFox/releases/tag/v1.0))
+[🔗 點此下載 ResoFox_v1.0.exe (Windows 64-bit)](https://github.com/lifangchen2021/ResoFox/releases/download/v1.0/ResoFox_v1.0.exe)
+
 
 此檔案為已打包版本，無需安裝 Python，雙擊即可使用。  
 若有防毒或 SmartScreen 提示，請選擇「仍要執行」或加入信任清單。
