@@ -100,7 +100,8 @@ case_study_ag_powder/
 
 引用範例：
 '''
-Li-Fang Chen, ResoFox: A GUI Tool for Neutron Diffractometer Resolution and Intensity Estimation, arXiv:2504.20341
+Li-Fang Chen, Preliminary Design and Performance Simulation of a Thermal Neutron Diffractometer Using McStas, arXiv:2504.20341
+Li-Fang Chen, ResoFox: A GUI Tool for Neutron Diffractometer Resolution and Intensity Estimation
 '''
 ---
 
