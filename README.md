@@ -94,6 +94,48 @@ case_study_ag_powder/
 - 程式可儲存繪圖與控制台表格資料
 
 ---
+## ResoFox v1.0 可執行檔（Windows 64-bit）
+
+本版本為 ResoFox 的預編譯執行檔，可直接執行分析中子繞射儀解析度與繞射圖譜。
+
+- 🔧 開發環境：Python 3.8
+- 🛠️ 打包工具：pyinstaller
+- ✅ 不需安裝 Python，下載後點擊即可使用
+
+---
+
+### 安裝方式
+1. 點擊上方檔案下載 `.exe`
+2. 執行 `ResoFox_v1.0.exe`
+3. 若跳出安全警告，請選「仍要執行」或加入白名單（Windows SmartScreen）
+
+---
+
+### 原始碼與範例說明：
+請見 [主頁 README](../README.md) 與 `case_study_ag_powder` 資料夾。
+
+---
+
+## ResoFox v1.0 Executable (Windows 64-bit)
+
+This is the standalone executable version of ResoFox, built with PyInstaller.
+
+- Python version: 3.8
+- No installation required. Simply download and run.
+
+For details on parameters and input examples, please refer to the main README.
+
+## 📥 下載執行檔 Download Executable
+
+[🔗 點此下載 ResoFox_v1.0.exe (Windows 64-bit)](https://github.com/yourname/ResoFox/releases/download/v1.0/ResoFox_v1.exe)
+
+此檔案為已打包版本，無需安裝 Python，雙擊即可使用。  
+若有防毒或 SmartScreen 提示，請選擇「仍要執行」或加入信任清單。
+
+⚠️ 注意事項：
+ResoFox_v1.exe 為 Windows 平台專用的可執行檔，目前僅支援 Windows 10 / 11（64-bit） 環境執行。
+若您使用 macOS 或 Linux 系統，請改以執行 ResoFox_v6.py 並安裝對應 Python 套件。
+
 
 ## 授權與引用
 
