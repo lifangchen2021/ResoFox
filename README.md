@@ -136,14 +136,24 @@ The figure below presents a side-by-side comparison of the input interfaces for 
 
 ![Input interface comparison](docs/resofox_mcstas_input_demo.png)
 
-By applying the corresponding parameter values shown in the figure, users can replicate the diffraction pattern results for silver powder samples in both ResoFox and McStas, enabling direct comparison.
+## Input Configuration Example (ResoFox vs. McStas)
 
-In addition, McStas offers various predefined sample types, as shown in the figure. Users can input the desired sample name in the `sample` field of the McStas interface to change the test material. Both FCC and BCC lattice structures are available for simulation, allowing users to compare how different crystal types affect resolution and intensity.
+The figure below shows a side-by-side comparison of the input interfaces used in ResoFox (left) and McStas (right). Both allow the definition of neutron diffractometer geometries and simulation parameters.
+
+📌 Important note:
+- In ResoFox, collimator divergence is entered in **radians**;
+- In McStas, the divergence input is in **arcminutes**.
+
+By matching the input parameters shown in the figure, users can replicate and compare the simulated diffraction patterns of silver powder (AgLaZ) using both tools.
+
+McStas also provides sample materials; the example shown is a powder sample (`AgLaZ`). To test different materials, users can simply change the sample name in the `sample` field of the McStas interface. The outputs from FCC and BCC lattice types can then be directly compared.
+
+
 ![Sample Image](docs/samples.png)
 
-A detailed comparison between the angular resolution results simulated by McStas and those predicted by ResoFox has been published in a paper on arXiv. The full manuscript is included in the `examples/` folder.
+A full comparison of the angular resolution results between ResoFox’s theoretical model and McStas simulations has been published on arXiv. Input files and analysis outputs are included in the `examples/` directory.
 
-🔍 Note: This example uses HOPG as the monochromator material, while the arXiv paper uses Ge(115). The difference in configuration is intentional, providing users with more options for cross-validation and parameter exploration.
+🔍 Note: The figure shown here uses HOPG as the monochromator crystal, while the arXiv paper uses Ge(115). This difference is intentional to offer readers broader cross-validation and configuration flexibility.
 
 ---
 
