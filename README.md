@@ -119,8 +119,6 @@ These data can be used for further comparison with Monte Carlo simulations (e.g.
 
 ## Validation Against Classical Theory: Caglioti et al. (1958)
 
-## Validation Against Classical Theory: Caglioti et al. (1958)
-
 To validate the correctness of ResoFox calculations, we reproduced the analytical resolution model proposed by G. Caglioti et al. (1958), which relates the full width at half maximum (FWHM) to beam luminosity (L) under different collimator angular divergences (α₁, α₂, α₃) and a fixed monochromator mosaic spread (β = 20 arcmin).
 
 The upper image shows the original figure from the Caglioti paper, while the lower plot is generated using ResoFox under the same conditions. Each dot represents a different collimator configuration, color-coded by the total divergence angle (a = 0, 1.5, 3).
