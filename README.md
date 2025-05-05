@@ -60,13 +60,14 @@ sudo apt-get install python3-tk
 
 ## 📦 Module Functions
 
-| Package               | Purpose                                                                 |
-|-----------------------|-------------------------------------------------------------------------|
-| `tkinter`             | Build the graphical user interface (GUI) for input/output interaction   |
-| `pillow`              | Load and render image files in the GUI (e.g., logos, figures)           |
-| `matplotlib`          | Generate resolution/intensity plots and output figures                  |
-| `pandas`              | Handle tabular data (e.g., export diffraction results to CSV)           |
+| Package                        | Purpose                                                                 |
+|-------------------------------|-------------------------------------------------------------------------|
+| `tkinter`                     | Build the graphical user interface (GUI) for input/output interaction  |
+| `pillow`                      | Load and render image files in the GUI (e.g., logos, figures)          |
+| `matplotlib`                  | Generate resolution/intensity plots and output figures                 |
+| `pandas`                      | Handle tabular data (e.g., export diffraction results to CSV)          |
 | `math`, `csv`, `io`, `base64` | Built-in Python libraries for computation, file handling, and encoding |
+| `main_png` (from `main_png.py`) | Generate the explanatory image used in the GUI input panel layout     |
 
 
 
