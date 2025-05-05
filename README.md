@@ -28,6 +28,23 @@ ResoFox was presented at the 2024 Taiwan Neutron Conference and has been benchma
 Neutron diffraction is a vital technique for studying crystal structures and magnetism. Resolution and flux are two critical parameters in the design of neutron diffractometers. While Monte Carlo tools such as McStas offer detailed particle-level simulations, theoretical estimates of resolution and flux are more practical during the early stages of instrument design.
 
 In 1958, Caglioti et al. proposed a widely adopted analytical model for calculating peak broadening using collimator divergences (α₁, α₂, α₃) and monochromator mosaic spread (β). Based on this model, ResoFox was developed to provide a user-friendly and visualized environment that enables designers to rapidly evaluate performance under varying design parameters.
+---
+## 📁 Repository Structure Overview
+The following structure outlines the key components of the repository, including source code, simulation examples, and image assets used in the documentation:
+```
+ResoFox/
+├── Examples/                                       # Simulation examples and McStas comparison data
+│   ├── McStas_input_HOPG_Ag.instr                  # McStas instrument definition file
+│   ├── Preliminary_Design_and_Performance_...pdf   # Simulation design and performance report
+│   ├── McStas_input_HOPG_Ag_20250505_result/       # Output plots and data from McStas simulation
+│   └── McStas_input_HOPG_Ag_20250505_instrument_.../  # Instrument geometry visualization (3D)
+├── docs/                                           # Images used in README (e.g., diagrams, output plots)
+├── LICENSE                                         # Software license (MIT License)
+├── README.md                                       # Project description, usage, and citation info
+├── ResoFox_v1.py                                   # Main program (GUI interface and core calculations)
+├── main_png.py                                     # Script for generating figures and geometry plots
+```
+
 
 
 ## Software Architecture and Functional Overview
@@ -116,9 +133,11 @@ All data used in the benchmark comparison are provided in the following folder:
 
 
 ```
-examples/
-├── arxiv_paper_2504.20341.pdf
-└── mcstas_input.instr
+Examples/                                       # Simulation examples and McStas comparison data
+├── McStas_input_HOPG_Ag.instr                  # McStas instrument definition file
+├── Preliminary_Design_and_Performance_...pdf   # Simulation design and performance report
+├── McStas_input_HOPG_Ag_20250505_result/       # Output plots and data from McStas simulation
+└── McStas_input_HOPG_Ag_20250505_instrument_.../  # Instrument geometry visualization (3D)
 ```
 
 Users can download these files to reproduce the benchmark and validation results.
