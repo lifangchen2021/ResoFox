@@ -80,6 +80,8 @@ ResoFox is developed in Python with a graphical user interface built using `tkin
 - Sample lattice constants a, b, c and lattice type (BCC = 1, FCC = 2)
 - Neutron wavelength and plot color selection
 
+
+
 ### Output features include:
 - Relative beam luminosity (not corrected for reflectivity)
 - Minimum FWHM and resolution curve
@@ -93,26 +95,34 @@ ResoFox is developed in Python with a graphical user interface built using `tkin
 ![ResoFox Main GUI](docs/gui_main_interface.png)
 
 ---
-## 🖨️ Output and Data Export
+## 📤 Output and Data Export
 
-ResoFox supports real-time generation and export of both plots and data tables:
+ResoFox supports real-time export of plotted figures and data tables, including:
 
-- Users can save generated plots—such as diffraction patterns (2θ vs intensity) and resolution curves—as `.png` images via the **Save Image** button in the GUI.
-- The program automatically prints detailed diffraction peak data—including 2θ, d-spacing, resolution, and relative intensity—to the console and optionally saves it as  `.csv` files.
-- All output files are UTF-8 encoded and compatible with Excel or other scientific plotting software for downstream analysis.
+- Click the **"Save Image"** button in the GUI to export charts in `.png` format (e.g., 2θ vs intensity plots, resolution curves).  
+  Click **"Export Data"** to export numerical results related to the diffraction peaks.
 
+![output_fig](docs/output_fig.png)
 
-## 📋 Console Output: Angular Resolution per Peak
+- The console simultaneously displays detailed diffraction peak data, including:  
+  2θ, d-spacing, FWHM, resolution, and relative intensity.
 
-The program automatically outputs the following resolution-related information for each diffraction angle:
+---
 
-- Calculated lattice constant (a-value)
-- Full width at half maximum (FWHM) in degrees
+## 📋 Console Output: Peak Angular Resolution Information
+
+For each diffraction peak, the program automatically outputs the following resolution-related parameters:
+
+- Lattice constant (a)
+- Full Width at Half Maximum (FWHM)
 - Angular resolution
 - Lattice resolution (Δd/d)
 - Standard deviation (if applicable)
 
-These data can be used for further comparison with Monte Carlo simulations (e.g., McStas) or experimental results.
+These values can be further compared against Monte Carlo simulation results (e.g., McStas) or experimental data.
+
+![output_table](docs/output_table.png)
+
 
 ---
 
