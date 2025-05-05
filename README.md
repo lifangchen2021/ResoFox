@@ -103,9 +103,9 @@ ResoFox supports real-time export of plotted figures and data tables, including:
 - Click the **"Save Image"** button in the GUI to export charts in `.png` format (e.g., 2θ vs intensity plots).  
   Click **"Export Data"** to export numerical results related to the diffraction peaks.
 
-![output_fig](docs/output_fig.png)
-
-
+![output_fig1](docs/output_fig.png)
+If the **"Clear Plot"** button is not clicked, users can re-enter new parameters and select a different color in the input panel to overlay diffraction patterns from different simulation conditions.
+![output_fig2](docs/output_compare.png)
 
 ---
 
