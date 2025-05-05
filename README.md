@@ -129,16 +129,14 @@ The results demonstrate strong agreement with the classical model, successfully 
 ![Validation vs Caglioti 1958](docs/validation_vs_caglioti1958.png)
 
 ---
-## Example Input Configuration (ResoFox vs McStas)
+## Input Configuration Example (ResoFox vs. McStas)
 
-The figure below presents a side-by-side comparison of the input interfaces for ResoFox and McStas:
+The figure below shows a side-by-side comparison of the input interfaces used in ResoFox (left) and McStas (right). Both allow the definition of neutron diffractometer geometries and simulation parameters.
 
 
 ![Input interface comparison](docs/resofox_mcstas_input_demo.png)
 
-## Input Configuration Example (ResoFox vs. McStas)
 
-The figure below shows a side-by-side comparison of the input interfaces used in ResoFox (left) and McStas (right). Both allow the definition of neutron diffractometer geometries and simulation parameters.
 
 📌 Important note:
 - In ResoFox, collimator divergence is entered in **radians**;
