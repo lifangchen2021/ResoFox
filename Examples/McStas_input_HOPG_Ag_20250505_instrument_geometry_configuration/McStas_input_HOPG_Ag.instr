@@ -275,7 +275,7 @@ COMPONENT Filter_HOPG =Filter_gen(
                            yheight=.3, 
                            thickness=3.0,
                            filename="HOPG.trm")
-AT (0,0,0.4) RELATIVE Mono_Out
+AT (0,0,0.5) RELATIVE Mono_Out
 
 
 /* Collimator No2 */
@@ -287,7 +287,7 @@ COMPONENT Collimator_No2= Collimator_linear(
                           length= 0.15, 
                           divergence= Co2,
                           transmission=0.7)
-AT(0,0,0.6) RELATIVE Mono_Out
+AT(0,0,0.7) RELATIVE Mono_Out
 
 /*Slit 3*/
 COMPONENT Slit3=Slit(

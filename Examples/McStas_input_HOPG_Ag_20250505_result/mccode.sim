@@ -1,0 +1,208 @@
+McStas simulation description file for NARIDiff.
+Date:    Mon May 05 08:57:49 2025
+Program: 
+
+begin instrument: NARIDiff
+  File: D:\Scientific_Paper_Collaboration_Assistant_System\A_GUI-based_tool_for_calculating_resolution_and_flux_of_neutron_powder_diffractometers\Github_ResoFox\Examples\McStas_input_HOPG_Ag_20250505_085748/mccode
+  Source: McStas_input_HOPG_Ag.instr
+  Parameters:  I0(double) Lambda(double) Beta(double) Mono_d(double) Focus_H(double) Focus_V(double) Co1(double) Co2(double) Co3(double) L_MS(double) L_MSlit3(double) sample(string) detector_bins(double) detector_height(double) m1(double) m2(double)
+  Trace_enabled: yes
+  Default_main: yes
+  Embedded_runtime: yes
+end instrument
+
+begin simulation: D:\Scientific_Paper_Collaboration_Assistant_System\A_GUI-based_tool_for_calculating_resolution_and_flux_of_neutron_powder_diffractometers\Github_ResoFox\Examples\McStas_input_HOPG_Ag_20250505_085748
+  Format: McCode with text headers
+  URL: http://www.mccode.org
+  Creator: 
+  Instrument: McStas_input_HOPG_Ag.instr
+  Ncount: 1000000000
+  Trace: no
+  Gravitation: no
+  Seed: -47794045
+  Directory: D:\Scientific_Paper_Collaboration_Assistant_System\A_GUI-based_tool_for_calculating_resolution_and_flux_of_neutron_powder_diffractometers\Github_ResoFox\Examples\McStas_input_HOPG_Ag_20250505_085748
+  Param: I0=3.64e+014
+  Param: Lambda=1.65
+  Param: Beta=30
+  Param: Mono_d=3.35
+  Param: Focus_H=0
+  Param: Focus_V=0
+  Param: Co1=30
+  Param: Co2=30
+  Param: Co3=30
+  Param: L_MS=2
+  Param: L_MSlit3=1.95
+  Param: sample=Ag.laz
+  Param: detector_bins=314
+  Param: detector_height=0.2
+  Param: m1=3
+  Param: m2=1
+end simulation
+
+begin data
+  Date: Mon May 05 09:12:08 2025 (1746407528)
+  type: array_1d(200)
+  Source: NARIDiff (McStas_input_HOPG_Ag.instr)
+  component: E_Monitor_1
+  position: 0 0 0.00011
+  title: Energy monitor
+  Ncount: 2000000000
+  filename: E_Monitor_1.txt
+  statistics: X0=55.7359; dX=37.4619;
+  signal: Min=670766; Max=1.03087e+011; Mean=3.96066e+010;
+  values: 7.92131e+012 5.76116e+008 9.78267e+008
+  xvar: E
+  yvar: (I,I_err)
+  xlabel: Energy [meV]
+  ylabel: Intensity
+  xlimits: 0 200
+  variables: E I I_err N
+end data
+
+begin data
+  Date: Mon May 05 09:12:08 2025 (1746407528)
+  type: array_1d(200)
+  Source: NARIDiff (McStas_input_HOPG_Ag.instr)
+  component: E_Monitor_2
+  position: 0 0 7.0011
+  title: Energy monitor
+  Ncount: 2000000000
+  filename: E_Monitor_2.txt
+  statistics: X0=47.3688; dX=34.3759;
+  signal: Min=665597; Max=9.24398e+010; Mean=2.78378e+010;
+  values: 5.56755e+012 4.42977e+008 9.62602e+008
+  xvar: E
+  yvar: (I,I_err)
+  xlabel: Energy [meV]
+  ylabel: Intensity
+  xlimits: 0 200
+  variables: E I I_err N
+end data
+
+begin data
+  Date: Mon May 05 09:12:08 2025 (1746407528)
+  type: array_2d(120, 120)
+  Source: NARIDiff (McStas_input_HOPG_Ag.instr)
+  component: PSD_2
+  position: 0 0 7.0011
+  title: PSD monitor
+  Ncount: 2000000000
+  filename: VS_XY.psd
+  statistics: X0=5.74445e-005; dX=1.75683; Y0=0.000189436; dY=3.41618;
+  signal: Min=0; Max=2.26467e+010; Mean=3.88312e+008;
+  values: 5.59169e+012 4.43121e+008 9.73226e+008
+  xvar: X 
+  yvar: Y 
+  xlabel: X position [cm]
+  ylabel: Y position [cm]
+  zvar: I
+  zlabel: Signal per bin
+  xylimits: -30 30 -30 30
+  variables: I I_err N
+end data
+
+begin data
+  Date: Mon May 05 09:12:09 2025 (1746407529)
+  type: array_1d(2000)
+  Source: NARIDiff (McStas_input_HOPG_Ag.instr)
+  component: E_Monitor_3
+  position: 0.953786 0 9.25567
+  title: Energy monitor
+  Ncount: 2000000000
+  filename: E_Monitor_sample_3.txt
+  statistics: X0=30.2214; dX=3.91375;
+  signal: Min=0; Max=1.53095e+007; Mean=100457;
+  values: 2.00914e+008 782581 146605
+  xvar: E
+  yvar: (I,I_err)
+  xlabel: Energy [meV]
+  ylabel: Intensity
+  xlimits: 0 200
+  variables: E I I_err N
+end data
+
+begin data
+  Date: Mon May 05 09:12:09 2025 (1746407529)
+  type: array_2d(120, 120)
+  Source: NARIDiff (McStas_input_HOPG_Ag.instr)
+  component: PSD_Sample
+  position: 0.954263 0 9.25655
+  title: PSD monitor
+  Ncount: 2000000000
+  filename: Sample_XY.psd
+  statistics: X0=-0.00487675; dX=0.554613; Y0=0.0047621; dY=0.868729;
+  signal: Min=0; Max=1.60757e+006; Mean=13969.5;
+  values: 2.01161e+008 782584 162165
+  xvar: X 
+  yvar: Y 
+  xlabel: X position [cm]
+  ylabel: Y position [cm]
+  zvar: I
+  zlabel: Signal per bin
+  xylimits: -12 12 -12 12
+  variables: I I_err N
+end data
+
+begin data
+  Date: Mon May 05 09:12:09 2025 (1746407529)
+  type: array_1d(314)
+  Source: NARIDiff (McStas_input_HOPG_Ag.instr)
+  component: BananaTheta
+  position: 0.954741 0 9.25743
+  title: Longitude [deg] monitor
+  Ncount: 2000000000
+  filename: BananaTheta_1746406669.th
+  statistics: X0=-84.2806; dX=37.8478;
+  signal: Min=2.09092; Max=4578.04; Mean=162.472;
+  values: 51016.3 452.563 62667
+  xvar: th
+  yvar: (I,I_err)
+  xlabel: Longitude [deg]
+  ylabel: Intensity [n/s/bin]
+  xlimits: -160 -3
+  variables: th I I_err N
+end data
+
+begin data
+  Date: Mon May 05 09:12:09 2025 (1746407529)
+  type: array_2d(380, 25)
+  Source: NARIDiff (McStas_input_HOPG_Ag.instr)
+  component: BananaPSD
+  position: 0.954741 0 9.25743
+  title:  Intensity Angle Position Monitor (Banana) [out] per bin
+  Ncount: 2000000000
+  filename: BananaPSD_1746406669.th_y
+  statistics: X0=-81.5355; dX=37.7341; Y0=0.000388478; dY=0.240141;
+  signal: Min=0; Max=857.182; Mean=22.9592;
+  values: 218113 925.969 277713
+  xvar: Lo
+  yvar: y 
+  xlabel: Longitude [deg]
+  ylabel: y [m]
+  zvar: I
+  zlabel: Signal per bin
+  xylimits: -160 -5 -0.5 0.5
+  variables: I I_err N
+end data
+
+begin data
+  Date: Mon May 05 09:12:09 2025 (1746407529)
+  type: array_2d(120, 120)
+  Source: NARIDiff (McStas_input_HOPG_Ag.instr)
+  component: PSD_Beamstop2
+  position: 1.67557 0 10.5843
+  title: PSD monitor
+  Ncount: 2000000000
+  filename: Beamstop_XY_2.psd
+  statistics: X0=0.893645; dX=12.0322; Y0=1.70183; dY=17.7967;
+  signal: Min=0; Max=13.2849; Mean=0.130368;
+  values: 1877.29 111.745 664
+  xvar: X 
+  yvar: Y 
+  xlabel: X position [cm]
+  ylabel: Y position [cm]
+  zvar: I
+  zlabel: Signal per bin
+  xylimits: -20 20 -30 30
+  variables: I I_err N
+end data
