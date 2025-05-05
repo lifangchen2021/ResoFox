@@ -113,7 +113,6 @@ If the **"Clear Plot"** button is not clicked, users can re-enter new parameters
 
 For each diffraction peak, the program automatically outputs the following resolution-related parameters:
 
-- Lattice constant (a)
 - Full Width at Half Maximum (FWHM)
 - Angular resolution
 - Lattice resolution (Δd/d)
@@ -156,7 +155,7 @@ The figure below shows a side-by-side comparison of the input interfaces used in
 - In ResoFox, collimator divergence is entered in **radians**;
 - In McStas, the divergence input is in **arcminutes**.
 
-By matching the input parameters shown in the figure, users can replicate and compare the simulated diffraction patterns of silver powder (AgLaZ) using both tools.
+By matching the input parameters shown in the figure, users can replicate and compare the simulated diffraction patterns of silver powder (Ag.laz) using both tools.
 
 McStas also provides sample materials; the example shown is a powder sample (`Ag.laZ`). To test different materials, users can simply change the sample name in the `sample` field of the McStas interface. The outputs from FCC and BCC lattice types can then be directly compared.
 
