@@ -57,7 +57,7 @@ For Linux users, if the GUI does not launch, install tkinter with:
 ```
 sudo apt-get install python3-tk
 ```
-## 📦 Module Functions
+
 ## 📦 Module Functions
 
 | Package               | Purpose                                                                 |
