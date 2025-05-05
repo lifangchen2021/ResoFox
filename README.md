@@ -144,7 +144,7 @@ The figure below shows a side-by-side comparison of the input interfaces used in
 
 By matching the input parameters shown in the figure, users can replicate and compare the simulated diffraction patterns of silver powder (AgLaZ) using both tools.
 
-McStas also provides sample materials; the example shown is a powder sample (`Ag.LaZ`). To test different materials, users can simply change the sample name in the `sample` field of the McStas interface. The outputs from FCC and BCC lattice types can then be directly compared.
+McStas also provides sample materials; the example shown is a powder sample (`Ag.laZ`). To test different materials, users can simply change the sample name in the `sample` field of the McStas interface. The outputs from FCC and BCC lattice types can then be directly compared.
 
 
 ![Sample Image](docs/samples.png)
