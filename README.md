@@ -45,7 +45,7 @@ ResoFox/
 ├── ResoFox_v1.py                                   # Main program (GUI interface and core calculations)
 ├── main_png.py                                     # Script for generating figures and geometry plots
 ```
-🔧 Requirements
+## 🔧 Requirements
 This software requires Python 3.7+ and the following packages:
 
 ```
@@ -57,7 +57,7 @@ For Linux users, if the GUI does not launch, install tkinter with:
 ```
 sudo apt-get install python3-tk
 ```
-📦 Module Functions
+## 📦 Module Functions
 Package	Purpose
 tkinter	Build the graphical user interface (GUI) for input/output interaction
 pillow	Load and render image files in the GUI (e.g., logos, figures)
