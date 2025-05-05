@@ -214,7 +214,7 @@ If a security or antivirus warning appears, please select “Run anyway” or ad
 
 ⚠️ Note:
 `ResoFox_v1.exe` is a Windows-only executable and currently supports **Windows 10 / 11 (64-bit)** systems.  
-If you are using macOS or Linux, please run the source file `ResoFox_v6.py` with the required Python dependencies installed.
+If you are using macOS or Linux, please run the source file `ResoFox_v1.py` with the required Python dependencies installed.
 
 ---
 
