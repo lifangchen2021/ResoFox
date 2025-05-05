@@ -139,7 +139,7 @@ The figure below presents a side-by-side comparison of the input interfaces for 
 By applying the corresponding parameter values shown in the figure, users can replicate the diffraction pattern results for silver powder samples in both ResoFox and McStas, enabling direct comparison.
 
 In addition, McStas offers various predefined sample types, as shown in the figure. Users can input the desired sample name in the `sample` field of the McStas interface to change the test material. Both FCC and BCC lattice structures are available for simulation, allowing users to compare how different crystal types affect resolution and intensity.
-![Sample Image](docs/sample.png)
+![Sample Image](docs/samples.png)
 
 A detailed comparison between the angular resolution results simulated by McStas and those predicted by ResoFox has been published in a paper on arXiv. The full manuscript is included in the `examples/` folder.
 
