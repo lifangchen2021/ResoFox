@@ -45,7 +45,25 @@ ResoFox/
 ├── ResoFox_v1.py                                   # Main program (GUI interface and core calculations)
 ├── main_png.py                                     # Script for generating figures and geometry plots
 ```
+🔧 Requirements
+This software requires Python 3.7+ and the following packages:
 
+```
+pip install matplotlib pillow pandas
+```
+tkinter is included by default in most Python distributions (Windows/macOS).
+For Linux users, if the GUI does not launch, install tkinter with:
+
+```
+sudo apt-get install python3-tk
+```
+📦 Module Functions
+Package	Purpose
+tkinter	Build the graphical user interface (GUI) for input/output interaction
+pillow	Load and render image files in the GUI (e.g., logos, figures)
+matplotlib	Generate resolution/intensity plots and output figures
+pandas	Handle tabular data (e.g., export diffraction results to CSV)
+math, csv, io, base64	Built-in Python libraries for computation, file handling, and encoding
 
 
 ## Software Architecture and Functional Overview
