@@ -150,9 +150,21 @@ A detailed comparison between the angular resolution results simulated by McStas
 
 ## Comparison with McStas Simulation Results
 
-To verify the consistency between ResoFox’s analytical calculations and Monte Carlo simulation results, a benchmark was conducted using McStas to simulate powder diffraction of silver (Ag) with a HOPG(002) monochromator at λ = 1.65 Å. The comparison is shown below:
+To validate the consistency between ResoFox analytical calculations and Monte Carlo simulations, we conducted a benchmark test using McStas. The simulation models a HOPG(002) monochromator operating at a neutron wavelength of λ = 1.65 Å, targeting a silver (Ag) powder sample. The comparison is illustrated in the figure below:
 
 ![Comparison with McStas](docs/comparison_with_mcstas.png)
+
+
+
+Overall, the positions and trends of the diffraction peaks show strong agreement between the two tools, confirming that ResoFox provides reliable predictions of resolution and intensity based on geometric optics theory.
+
+🔍 Possible reasons for the slight differences in peak heights:
+
+Statistical noise in Monte Carlo simulation:
+McStas employs Monte Carlo ray tracing, which can lead to fluctuations or sharp spikes in intensity near strong diffraction peaks when the number of simulated particles is insufficient. In contrast, ResoFox uses an analytical model, resulting in smoother and noise-free intensity profiles.
+
+Normalization differences:
+In this comparison, global normalization of total intensity was not applied. Instead, both datasets were aligned based on the main peak, which may cause minor discrepancies in the relative intensity of secondary peaks.
 
 
 
