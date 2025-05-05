@@ -67,7 +67,7 @@ The result confirms that the computed resolution and intensity trends are in str
 
 ## Comparison with McStas Simulation Results
 
-To verify the consistency between ResoFox’s analytical calculations and Monte Carlo simulation results, a benchmark was conducted using McStas to simulate powder diffraction of silver (Ag) with a Ge(115) monochromator at λ = 1.54 Å. The comparison is shown below:
+To verify the consistency between ResoFox’s analytical calculations and Monte Carlo simulation results, a benchmark was conducted using McStas to simulate powder diffraction of silver (Ag) with a Ge(115) monochromator at λ = 1.65 Å. The comparison is shown below:
 
 ![Comparison with McStas](docs/comparison_with_mcstas.png)
 
