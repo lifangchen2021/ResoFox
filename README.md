@@ -138,6 +138,9 @@ The results demonstrate strong agreement with the classical model, successfully 
 
 ![Validation vs Caglioti 1958](docs/validation_vs_caglioti1958.png)
 
+
+⚠️ **Note:** The full width at half maximum (FWHM) values exported by ResoFox are in radians. They must be converted to arcminutes for proper comparison with the classic results presented by G. Caglioti *et al.*
+
 ---
 ## Input Configuration Example (ResoFox vs. McStas)
 
