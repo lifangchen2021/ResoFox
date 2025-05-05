@@ -136,8 +136,13 @@ The figure below presents a side-by-side comparison of the input interfaces for 
 
 ![Input interface comparison](docs/resofox_mcstas_input_demo.png)
 
-The left panel shows ResoFox’s GUI input interface, while the right panel displays the McStas configuration interface.  
-Sample McStas input files and parameter documentation are included in the `examples/` folder for download and testing.
+By applying the corresponding parameter values shown in the figure, users can replicate the diffraction pattern results for silver powder samples in both ResoFox and McStas, enabling direct comparison.
+
+In addition, McStas offers various predefined sample types, as shown in the figure. Users can input the desired sample name in the `sample` field of the McStas interface to change the test material. Both FCC and BCC lattice structures are available for simulation, allowing users to compare how different crystal types affect resolution and intensity.
+
+A detailed comparison between the angular resolution results simulated by McStas and those predicted by ResoFox has been published in a paper on arXiv. The full manuscript is included in the `examples/` folder.
+
+🔍 Note: This example uses HOPG as the monochromator material, while the arXiv paper uses Ge(115). The difference in configuration is intentional, providing users with more options for cross-validation and parameter exploration.
 
 ---
 
@@ -148,13 +153,7 @@ To verify the consistency between ResoFox’s analytical calculations and Monte 
 
 ![Comparison with McStas](docs/comparison_with_mcstas.png)
 
-By applying the corresponding parameter values shown in the figure, users can replicate the diffraction pattern results for silver powder samples in both ResoFox and McStas, enabling direct comparison.
 
-In addition, McStas offers various predefined sample types, as shown in the figure. Users can input the desired sample name in the `sample` field of the McStas interface to change the test material. Both FCC and BCC lattice structures are available for simulation, allowing users to compare how different crystal types affect resolution and intensity.
-
-A detailed comparison between the angular resolution results simulated by McStas and those predicted by ResoFox has been published in a paper on arXiv. The full manuscript is included in the `examples/` folder.
-
-🔍 Note: This example uses HOPG as the monochromator material, while the arXiv paper uses Ge(115). The difference in configuration is intentional, providing users with more options for cross-validation and parameter exploration.
 
 ---
 
