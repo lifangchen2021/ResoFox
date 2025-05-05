@@ -100,13 +100,12 @@ ResoFox is developed in Python with a graphical user interface built using `tkin
 
 ResoFox supports real-time export of plotted figures and data tables, including:
 
-- Click the **"Save Image"** button in the GUI to export charts in `.png` format (e.g., 2θ vs intensity plots, resolution curves).  
+- Click the **"Save Image"** button in the GUI to export charts in `.png` format (e.g., 2θ vs intensity plots).  
   Click **"Export Data"** to export numerical results related to the diffraction peaks.
 
 ![output_fig](docs/output_fig.png)
 
-- The console simultaneously displays detailed diffraction peak data, including:  
-  2θ, d-spacing, FWHM, resolution, and relative intensity.
+
 
 ---
 
