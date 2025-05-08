@@ -42,7 +42,7 @@ ResoFox/
 ├── docs/                                           # Images used in README (e.g., diagrams, output plots)
 ├── LICENSE                                         # Software license (MIT License)
 ├── README.md                                       # Project description, usage, and citation info
-├── ResoFox_v1.py                                   # Main program (GUI interface and core calculations)
+├── ResoFox_v1.0.0.py                                   # Main program (GUI interface and core calculations)
 ├── main_png.py                                     # Script for generating figures and geometry plots
 ```
 ## 🔧 Requirements
@@ -230,7 +230,7 @@ This version provides a precompiled standalone executable for ResoFox. It can be
 
 ### Installation Instructions
 1. Click the link below to download the `.exe` file.
-2. Run `ResoFox_v1.0.exe`.
+2. Run `ResoFox_v1.0.0.exe`.
 3. If a security warning appears (e.g., Windows SmartScreen), choose “Run anyway” or add the file to your whitelist.
 
 ---
@@ -240,7 +240,7 @@ Please refer to the [main README](../README.md) and the `case_study_ag_powder` f
 
 ---
 
-## ResoFox v1.0 Executable (Windows 64-bit)
+## ResoFox v1.0.0 Executable (Windows 64-bit)
 
 This is the standalone executable version of ResoFox, built with PyInstaller.
 
@@ -258,7 +258,7 @@ If a security or antivirus warning appears, please select “Run anyway” or ad
 
 
 ⚠️ Note:
-`ResoFox_v1.exe` is a Windows-only executable and currently supports **Windows 10 / 11 (64-bit)** systems.  
+`ResoFox_v1.0.0.exe` is a Windows-only executable and currently supports **Windows 10 / 11 (64-bit)** systems.  
 If you are using macOS or Linux, please run the source file `ResoFox_v1.py` with the required Python dependencies installed.
 
 ---
