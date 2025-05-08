@@ -12,7 +12,9 @@
 
 ## Abstract
 
-![Resolution discussion using ResoFox](docs/resofox_resolution_discussion.png)
+<p align="center">
+  <img src="docs/resofox_resolution_discussion.png" alt="Resolution discussion using ResoFox" width="400"/>
+</p>
 
 
 ResoFox is a Python-based graphical tool designed for theoretical analysis of neutron powder diffractometers. It focuses on evaluating the influence of optical components—namely collimators and monochromators—on diffraction peak resolution and relative intensity. The software is built upon the resolution model proposed by Caglioti et al. in 1958, combined with Bragg’s law and fundamental diffraction equations. It allows users to perform simulations under various geometric and optical configurations.
