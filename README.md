@@ -217,7 +217,7 @@ Users can download these files to reproduce the benchmark and validation results
 
 ---
 
-## ResoFox v1.0 Executable (Windows 64-bit)
+## ResoFox v1.0.0 Executable (Windows 64-bit)
 
 This version provides a precompiled standalone executable for ResoFox. It can be used directly to perform resolution and diffraction pattern simulations for neutron powder diffractometers.
 
