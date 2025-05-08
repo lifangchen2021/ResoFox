@@ -13,7 +13,7 @@
 ## Abstract
 
 <p align="center">
-  <img src="docs/resofox_resolution_discussion.png" alt="Resolution discussion using ResoFox" width="400"/>
+  <img src="docs/diffraction_discussion_visual.png" alt="Resolution discussion using ResoFox" width="400"/>
 </p>
 
 
