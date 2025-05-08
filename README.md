@@ -251,7 +251,7 @@ For details on parameters and example inputs, please refer to the main README.
 
 ## 📥 Download Executable
 
-[🔗 Click here to download ResoFox_v1.0.exe (Windows 64-bit)](https://https://github.com/lifangchen2021/ResoFox/releases/download/v1.0.0/ResoFox_v1.0.exe)
+[🔗 Click here to download ResoFox_v1.0.0.exe (Windows 64-bit)](https://github.com/lifangchen2021/ResoFox/releases/download/v1.0.0/ResoFox_v1.0.0.exe)
 This is a packaged version of the software and does not require Python to be installed.  
 If a security or antivirus warning appears, please select “Run anyway” or add the file to your trusted list.
 
