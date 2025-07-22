@@ -55,6 +55,8 @@ ResoFox/
 ├── LICENSE                                         # Software license (MIT License)
 ├── README.md                                       # Project description, usage, and citation info
 ├── ResoFox_v1.0.0.py                                   # Main program (GUI interface and core calculations)
+├── ResoFox_v1.0.1.py                                   # Main program (Change Y-axis label to "Relative Intensity")
+├── ResoFox_v1.0.2.py                                   # Main program (Update diffraction plot line styles and colors)
 ├── main_png.py                                     # Script for generating figures and geometry plots
 ```
 ## 🔧 Requirements
