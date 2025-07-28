@@ -153,7 +153,7 @@ The results demonstrate strong agreement with the classical model, successfully 
 
 
 ⚠️ **Note:** The full width at half maximum (FWHM) values exported by ResoFox are in radians. They must be converted to arcminutes for proper comparison with the classic results presented by G. Caglioti *et al.*.  
-Additionally, the relative intensity values calculated by ResoFox must be multiplied by a scaling factor in order to align with the intensity axis in the reference plots of G. Caglioti *et al.*. In this case, the scaling factor used is **4 × 10¹⁰**.
+Additionally, the relative intensity values calculated by ResoFox must be multiplied by a scaling factor in order to align with the intensity axis in the reference plots of G. Caglioti *et al.*. In this case, the scaling factor used is **10⁹**.
 
 ---
 ## Input Configuration Example (ResoFox vs. McStas)
