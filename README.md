@@ -227,8 +227,8 @@ This tool is introduced in the following article:
 **Chen, L.-F.** (2025).  
 *ResoFox: A GUI-based tool for calculating resolution and relative intensity of neutron powder diffractometers*.  
 **SoftwareX**, Volume 31, September 2025.  
-🔗 [Read the article (Free access for 50 days)](https://authors.elsevier.com/sd/article/S2352-7110(25)00258-4)  
-📘 [DOI: 10.1016/j.softx.2025.102292](https://doi.org/10.1016/j.softx.2025.102292)
+🔗 [Read the article](https://doi.org/10.1016/j.softx.2025.102292)  
+
 ---
 
 ## Development Environment and Usage
