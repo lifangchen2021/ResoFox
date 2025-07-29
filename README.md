@@ -219,7 +219,16 @@ Examples/                                       # Simulation examples and McStas
 ```
 
 Users can download these files to reproduce the benchmark and validation results.
+---
+## 📄 Related Publication
 
+This tool is introduced in the following article:
+
+**Chen, L.-F.** (2025).  
+*ResoFox: A GUI-based tool for calculating resolution and relative intensity of neutron powder diffractometers*.  
+**SoftwareX**, Volume 31, September 2025.  
+🔗 [Read the article (Free access for 50 days)](https://authors.elsevier.com/c/1hrUq3vfjE5L5R)  
+📘 [DOI: 10.1016/j.softx.2025.102292](https://doi.org/10.1016/j.softx.2025.102292)
 ---
 
 ## Development Environment and Usage
